@@ -1,0 +1,107 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <h2 class="text-center text-info" >Create Book</h2>
+        </div>
+        <div class="col-md-3 logout">
+           <h4 routerLink="/navbar">Logout</h4>
+        </div>
+    </div>
+</div>
+<!-- <h2 class="text-center text-info">Create Book</h2> -->
+<div class="container">
+    <div class="row">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Book Title</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.title" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Category</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.category" />
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Publisher</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.publisher" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Price</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.price" />
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Book Content</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.content" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Created Date</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.createdDate" />
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Modified Date</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.modifiedDate" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Logo</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.logo" />
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>AuthorId</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.authorId" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Publishes Date</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.publishesDate" />
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <label>Active</label>
+                        <input type="text" class="form-control" [(ngModel)]="book.active" />
+                    </div>
+                </div>
+
+                <div class="col-md-2"></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="mb-4">
+                        <button type="submit" class="btn btn-primary mb-4" style="width: 100%;" (click)="onSubmit()">Add
+                            Book</button>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</div>

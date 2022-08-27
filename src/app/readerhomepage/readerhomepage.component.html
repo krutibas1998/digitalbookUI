@@ -1,0 +1,46 @@
+<app-navbar></app-navbar>
+<div class='card-header'>
+    <div class='card-body'>
+        <div class="table-responsive">
+            <table class="table" *ngIf='Readerhomepages.length'>
+                <thead>
+                    <tr>
+                        <th>
+                            <button class="btn btn-primary" (click)='hideAndShow()'>
+                                {{ showIcon? "hide":"Show" }}
+                                Book Logo
+                            </button>
+                        </th>
+                        <th>bookId</th>
+                        <th>title</th>
+                        <th>category</th>
+                        <th>price</th>
+                        <th>authorId</th>
+                        <th>publisher</th>
+                        <th>publishesDate</th>
+                        <th>content</th>
+                        <th>active</th>
+                        <th>createDate</th>
+                        <th>modifiedDate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let book of Readerhomepages">
+                        <td><img *ngIf='showIcon' [title]="book.title" [style.width.px]="iconWidth"
+                                [style.margin.px]="iconMargin" /></td>
+                        <td>{{book.bookId}}</td>
+                        <td>{{book.title}}</td>
+                        <td>{{book.category}}</td>
+                        <td>{{book.price}} </td>
+                        <td>{{book.authorId}}</td>
+                        <td>{{book.publisher}}</td>
+                        <td>{{book.publishesDate}}</td>
+                        <td>{{book.content}}</td>
+                        <td>{{book.active}}</td>
+                        <td>{{book.createDate}}</td>
+                        <td>{{book.modifiedDate}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>

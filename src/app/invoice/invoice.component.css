@@ -1,0 +1,32 @@
+.box{
+    width: 550px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color:rgb(3, 58, 59);
+    margin: auto;
+}
+
+.bookt{
+    color: whitesmoke;
+    width: 550px;
+    height: 60px;
+    margin: auto;
+    background-color: rgb(51, 8, 92);
+}
+
+.lab{
+    color: rgb(86, 11, 156);
+    font-size: 15px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.inp{
+    width: 490px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+

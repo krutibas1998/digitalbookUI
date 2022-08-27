@@ -1,0 +1,29 @@
+<div class="container">
+    <h1 class="text-center  bookt">Book Payment</h1>
+    <form #form="ngForm" (ngSubmit)="onSubmit()"  class="box">
+        <div class="col-md-12">
+            <label  for="emails" class="lab">BuyerEmail</label> <br>
+            <input type="email" name="email" id="emails" class="inp" [(ngModel)]="payment.email">
+        </div>
+
+        <div class="col-md-12">
+            <label for="userIds" class="lab">UserId</label> <br>
+            <input type="text" name="userId" id="userIds" class="inp" [(ngModel)]="payment.userId">
+        </div>
+
+        <div class="col-md-12">
+            <label for="bookIds" class="lab">BookId</label><br>
+            <input type="text" name="bookId" id="bookIds" class="inp" [(ngModel)]="payment.bookId">
+        </div>
+
+        <div class="col-md-12">
+            <label for="Payments" class="lab">PaymentDate</label><br>
+            <input type="text" name="Payment" id="Payments" class="inp" [(ngModel)]="payment.payment">
+        </div>
+        <br>
+      
+        <div class="form-group col-md-12" align="center">
+            <button class="buy" id="binp" routerLink='/invoice'>BUY</button>
+        </div> 
+    </form>
+</div>
