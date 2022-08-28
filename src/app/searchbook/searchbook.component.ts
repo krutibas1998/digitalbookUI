@@ -17,13 +17,16 @@ export class SearchbookComponent implements OnInit {
     category:''
 
   }
+  msg:any="";
   resp:any={};
 
   ngOnInit(): void {
   }
   onSubmit(): void {
     this.SearchbookService.searchbook(this.book).subscribe(response=>{this.resp= response;
-    console.log(this.resp)}); 
+    console.log(this.resp)
+    this.msg="Search Successfully";
+  }); 
        
   }
 

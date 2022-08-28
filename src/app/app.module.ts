@@ -13,6 +13,7 @@ import { PurchasebookComponent } from './purchasebook/purchasebook.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchbookComponent } from './searchbook/searchbook.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { UpdateComponent } from './update/update.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { InvoiceComponent } from './invoice/invoice.component';
     PurchasebookComponent,
     NavbarComponent,
     SearchbookComponent,
-    InvoiceComponent
+    InvoiceComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,

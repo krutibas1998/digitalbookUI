@@ -1,10 +1,20 @@
-.dbook{
+/* .dbook{
     position: relative;
-}
+} */
 
 .logo{
-    position:absolute;
-    top: 0;
-    right: 0;
 
+    margin-bottom: -48px;
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+    background-color: greenyellow;
+
+}
+.dgd{
+background-color: wheat;
+
+
+
+    
 }

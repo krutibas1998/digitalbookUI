@@ -8,6 +8,7 @@ import {PurchasebookComponent} from './purchasebook/purchasebook.component'
 import {SearchbookComponent} from './searchbook/searchbook.component'
 import { NavbarComponent } from './navbar/navbar.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { UpdateComponent } from './update/update.component';
 
 const routes: Routes = [
   {path:'signup',component:SignupComponent}, 
@@ -16,8 +17,9 @@ const routes: Routes = [
   {path:'createbook',component:CreatebookComponent},
   {path:'purchasebook',component:PurchasebookComponent},
   {path:'searchbook',component:SearchbookComponent},
-  {path:'navbar', component:ReaderhomepageComponent},
+  // {path:'navbar', component:ReaderhomepageComponent},
   {path:'invoice',component:InvoiceComponent},
+  {path:'update',component:UpdateComponent}
 ];
 
 @NgModule({

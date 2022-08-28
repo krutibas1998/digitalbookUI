@@ -23,32 +23,28 @@
     </div>
 </div> -->
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-4">
-            <div class="mb-3">
-                <label>Price</label>
-                <input type="text" class="form-control" [(ngModel)]="book.price" />
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="mb-2">
-                <label>Category</label>
-                <input type="text" class="form-control" [(ngModel)]="book.title" />
-            </div>
 
-        </div>
-        <div class="col-md-2">
 
-        </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <div class="mb-3">
-                <label>Publisher</label>
-                <input type="text" class="form-control" [(ngModel)]="book.category" />
-            </div>
-            <button type="submit" class="btn btn-primary mb-1" style="width: 100%;" (click)="onSubmit()">Search</button>
-        </div>
-        <div class="col-md-4"></div>
+
+<h1 class="text-center  bookt">Search Book</h1>
+<div class="box">
+
+    <div>
+        <label class="lab">Price</label>
+        <input type="text" class="form-control inp" [(ngModel)]="book.price" />
     </div>
+    
+    <div>
+        <label class="lab">Category</label>
+        <input type="text" class="form-control inp" [(ngModel)]="book.title" />
+    </div>
+
+    <div>
+        <label class="lab">Publisher</label>
+        <input type="text" class="form-control inp" [(ngModel)]="book.category" />
+    </div>
+    <br>
+    <button type="submit" class="buy" style="width: 80%;" (click)="onSubmit()">Search</button>
+    <h6 class="text-center text-success">{{msg}}</h6>
+
+</div>

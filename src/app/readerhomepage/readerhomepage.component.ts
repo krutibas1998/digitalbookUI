@@ -9,8 +9,8 @@ import { ReaderhomepageService } from '../services/readerhomepage.service';
 })
 export class ReaderhomepageComponent implements OnInit {
   showIcon : boolean = false;
-  iconMargin =1;
-  iconWidth =1;
+  iconMargin:any ="5px";
+  iconWidth:any ="5px";
   Readerhomepages:Readerhomepage[]=[];
   Readerhomepage:Readerhomepage={
     bookId:'',

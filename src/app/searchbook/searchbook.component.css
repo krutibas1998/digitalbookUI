@@ -30,13 +30,14 @@
 }
 
 .buy{
-    width: 180px;
+    width: 80%;
     height: 50px;
     background-color: rgb(51, 8, 92);
     color: cornsilk;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 10%;
 }
 
 .buy:hover{

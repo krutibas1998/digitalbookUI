@@ -25,7 +25,7 @@ export class CreatebookComponent implements OnInit {
     createdDate:'',
     modifiedDate:''
   }
-
+  msg:any="";
   ngOnInit(): void {
     
   }

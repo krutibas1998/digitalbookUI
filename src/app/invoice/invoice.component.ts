@@ -8,28 +8,31 @@ import { Purchasebook } from '../model/purchasebook.model';
   styleUrls: ['./invoice.component.css']
 })
 export class InvoiceComponent implements OnInit {
-  
-  invoice:Purchasebook={
-    paymentId:0,
-    email:'',
-    userId:0,
-    bookId:0,
-    payment:new Date()
+  invoice:Purchasebook[]=[];
 
-  }
+  // invoice:Purchasebook={
+  //   paymentId:0,
+  //   email:'',
+  //   userId:0,
+  //   bookId:0,
+  //   payment:new Date()
+
+  // }
   
 
   constructor(private PurchasebookService:PurchasebookService) { }
 
   ngOnInit(): void {
-    
+    this.getAllPayment();
   }
-  
 
-  
-  onSumbit(){
+  getAllPayment() {
     this.PurchasebookService.getAllPayment()
-    .subscribe(Response=>{this.PurchasebookService.getAllPayment()});
+    .subscribe(
+      response => { this.invoice = response}
+    );
   }
-
 }
+ 
+
+

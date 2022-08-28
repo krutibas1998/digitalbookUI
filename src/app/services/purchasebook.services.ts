@@ -9,7 +9,7 @@ import { Purchasebook } from '../model/purchasebook.model';
 
 export class PurchasebookService {
     baseUrl = 'http://localhost:5212/api/Krutibas11'
-    baseUrl1 = 'http://localhost:5212/api/Krutibas11'
+    baseUrl1 = 'http://localhost:5212/api/Krutibas12'
 
     constructor(private http: HttpClient) { }
 

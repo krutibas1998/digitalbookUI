@@ -27,7 +27,7 @@ export class PurchasebookComponent implements OnInit {
     if (this.payment.email != '') {
       this.PurchasebookService.CreatePayment(this.payment).subscribe(response => {
         console.log(response);
-       this.router.navigate(['/invoice']);
+       this.router.navigate(["/invoice"]);
       })
     } else { console.log('Payment failed'); }
   }

@@ -1,5 +1,7 @@
 .logout{
-    width: 120px;
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
     border-radius: 2px;
     border-style: solid;
     background-color:rgb(30, 171, 214);
@@ -11,4 +13,36 @@
     background-color: brown;
     color: wheat;
 
-}       
+}     
+.update{
+    width: 200px;
+    border-radius: 2px;
+    border-style: solid;
+    background-color:rgb(30, 171, 214);
+    text-align: left;
+    margin-left: 65%;  
+    margin-right: -10%;
+}
+.box{
+    width: 650px;
+    height: 620px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color:rgb(3, 58, 59);
+    margin: auto;
+}
+
+.buy{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(51, 8, 92);
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+.buy:hover{
+   background-color: rgb(4, 85, 85);
+}
