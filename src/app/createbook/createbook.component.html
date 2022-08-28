@@ -1,15 +1,20 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-9">
-            <h2 class="text-center text-info" >Create Book</h2>
+
+        <div class="col-md-3 update">
+            <h4 routerLink="/update">Update Book</h4>
         </div>
+
         <div class="col-md-3 logout">
-           <h4 routerLink="/navbar">Logout</h4>
+            <h4 routerLink="/navbar">Logout</h4>
         </div>
     </div>
 </div>
+
+<h2 class="text-center text-info">Create Book</h2>
+
 <!-- <h2 class="text-center text-info">Create Book</h2> -->
-<div class="container">
+<div class="container box">
     <div class="row">
         <div class="container">
             <div class="row pt-3">
@@ -91,16 +96,11 @@
                         <input type="text" class="form-control" [(ngModel)]="book.active" />
                     </div>
                 </div>
-
-                <div class="col-md-2"></div>
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <div class="mb-4">
-                        <button type="submit" class="btn btn-primary mb-4" style="width: 100%;" (click)="onSubmit()">Add
-                            Book</button>
-                    </div>
+                <div type="submit" class="btn btn-info" style="width:80%; margin:auto;" align="center" (click)="onSubmit()">Add
+                    Book
+                    
                 </div>
-                <div class="col-md-4"></div>
+
             </div>
         </div>
     </div>
