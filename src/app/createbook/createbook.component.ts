@@ -25,6 +25,7 @@ export class CreatebookComponent implements OnInit {
     createdDate:'',
     modifiedDate:''
   }
+
   ngOnInit(): void {
     
   }
@@ -56,6 +57,7 @@ export class CreatebookComponent implements OnInit {
            createdDate:'',
            modifiedDate:''
           };
+        
         }
       );
     }
