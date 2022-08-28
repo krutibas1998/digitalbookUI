@@ -10,16 +10,6 @@ import { Purchasebook } from '../model/purchasebook.model';
 export class InvoiceComponent implements OnInit {
   invoice:Purchasebook[]=[];
 
-  // invoice:Purchasebook={
-  //   paymentId:0,
-  //   email:'',
-  //   userId:0,
-  //   bookId:0,
-  //   payment:new Date()
-
-  // }
-  
-
   constructor(private PurchasebookService:PurchasebookService) { }
 
   ngOnInit(): void {

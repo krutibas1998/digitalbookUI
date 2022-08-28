@@ -20,10 +20,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // Add_B(){
-  //   var output = this.AuthenticationService.addUser(this.login);
-  //   if(output==true)
-  // }
   
   onSumbit() {
     if (this.login.userName!='' && this.login.password!='') {

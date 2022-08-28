@@ -17,7 +17,6 @@ const routes: Routes = [
   {path:'createbook',component:CreatebookComponent},
   {path:'purchasebook',component:PurchasebookComponent},
   {path:'searchbook',component:SearchbookComponent},
-  // {path:'navbar', component:ReaderhomepageComponent},
   {path:'invoice',component:InvoiceComponent},
   {path:'update',component:UpdateComponent}
 ];

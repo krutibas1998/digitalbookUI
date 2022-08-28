@@ -4,7 +4,7 @@
             <table class="table" *ngIf='invoice.length'>
                 <thead>
                     <tr>
-                        <!-- <th>PaymentId</th> -->
+                        
                         <th>Email</th>
                         <th>UserId</th>
                         <th>PaymentDate</th>
@@ -14,7 +14,7 @@
                 </thead>
                 <tbody>
                     <tr *ngFor="let book of invoice">
-                        <!-- <td>{{book.paymentId}}</td> -->
+                    
                         <td>{{book.email}}</td>
                         <td>{{book.userId}}</td>
                         <td>{{book.payment}} </td>
